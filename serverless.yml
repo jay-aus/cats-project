@@ -1,0 +1,27 @@
+service: catsapi
+frameworkVersion: '3'
+
+plugins:
+  - serverless-bundle
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  cats-selection:
+    handler: index.handler
+    events:
+      - http:
+          path: /
+          method: get
+          cors: true
+      - http:
+          path: /top-five-cats
+          method: get
+          cors: true
+          request:
+            parameters:
+              paths:
+                breed_type: false

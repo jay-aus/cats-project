@@ -1,0 +1,25 @@
+{
+  "name": "catsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serverless offline start --stage dev"
+  },
+  "author": "Jay Kapadia",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "serverless-bundle": "^6.0.0",
+    "simple-node-logger": "^21.8.12",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  }
+}
