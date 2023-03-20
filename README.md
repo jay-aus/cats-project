@@ -65,4 +65,6 @@ To add environment variables to your project
 2. Add environment variables for your local stage to `.env`.
 3. Uncomment `environment:` block in the `serverless.yml` and reference the environment variable as `${env:MY_ENV_VAR}`. Where `MY_ENV_VAR` is added to your `.env` file.
 
-TO DO Test cases
+TO DO 
+1. Test cases
+2. Add logging
