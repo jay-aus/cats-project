@@ -30,6 +30,8 @@ If you are using Postman you can fire a sample GET Request as below
 
 http://localhost:3000/dev/top-five-cats?breed_type=all
 
+Base invocation URL as deployed in AWS is https://57ea44tl64.execute-api.us-east-1.amazonaws.com/dev/ (Available in .env)
+
 ### Usage
 
 To run a function on your local
